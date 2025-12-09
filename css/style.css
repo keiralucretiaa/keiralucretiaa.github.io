@@ -1,9 +1,15 @@
 /********** Template CSS **********/
 
 /* ===== Tema Warna Navy & Putih ===== */
-
+#home {
+    background-color: #0d1b2a;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; /* biar teksnya berada di tengah */
+    color: rgb(255, 255, 255);
+}
 body {
-    background-color: #e6e3d2;
+    background-color: #ffffff;
     color: #001F3F;
 }
 
@@ -13,7 +19,7 @@ body {
 }
 
 .navbar .nav-link {
-    color: #e6e3d2 !important;
+    color: #ffffff !important;
 }
 
 .navbar .nav-link.active,
@@ -23,7 +29,7 @@ body {
 
 /* Brand / Logo */
 .navbar-brand h1 {
-    color: ##e6e3d2 !important;
+    color: #ffffff !important;
 }
 
 /* Tombol utama */
@@ -39,7 +45,7 @@ body {
 
 /* Background section */
 .bg-light {
-    background-color: #e6e3d2 !important;
+    background-color: #ffffff !important;
 }
 
 /* Heading warna navy */
@@ -64,7 +70,7 @@ body {
 :root {
     --primary: #003366;
     --secondary: #8e2525;
-    --light: #e6e3d2;
+    --light: #ffffff;
     --dark: #12141D;
 }
 
@@ -110,7 +116,7 @@ body {
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #e6e3d2;
+    color: #ffffff;
 }
 
 .btn-square {
@@ -165,10 +171,6 @@ body {
 }
 
 
-/*** Header ***/
-#home {
-    background: url(../img/woh.png);
-}
 
 #home {
     margin-bottom: 0 !important;
